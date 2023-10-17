@@ -1,21 +1,22 @@
 <template>
-    <Header />
+    <!-- <Header /> -->
+    <HeaderTest />
     <RouterView></RouterView>
-    <Footer/>
+    <Footer />
 </template>
 
 <script>
 import Header from './components/Header/Header.vue';
 import Footer from './components/Footer/Footer.vue';
-import RouterView from './router';
+import HeaderTest from './components/Header/HeaderTest.vue';
+
 export default {
     components: {
         Header,
         Footer,
+        HeaderTest
     }
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
